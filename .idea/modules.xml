@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnnEcmobile.iml" filepath="$PROJECT_DIR$/AnnEcmobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alipay_lib/alipay_lib.iml" filepath="$PROJECT_DIR$/alipay_lib/alipay_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidSDK/androidSDK.iml" filepath="$PROJECT_DIR$/androidSDK/androidSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidSDKComponent/androidSDKComponent.iml" filepath="$PROJECT_DIR$/androidSDKComponent/androidSDKComponent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annShop/annShop.iml" filepath="$PROJECT_DIR$/annShop/annShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eventBus/eventBus.iml" filepath="$PROJECT_DIR$/eventBus/eventBus.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,341 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From AndroidSDK:
+* AndroidSDK.iml
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\tencent\
+* doc\com\tencent\weibo\
+* doc\com\tencent\weibo\sdk\
+* doc\com\tencent\weibo\sdk\android\
+* doc\com\tencent\weibo\sdk\android\api\
+* doc\com\tencent\weibo\sdk\android\api\BaseAPI.html
+* doc\com\tencent\weibo\sdk\android\api\FriendAPI.html
+* doc\com\tencent\weibo\sdk\android\api\LbsAPI.html
+* doc\com\tencent\weibo\sdk\android\api\PublishWeiBoAPI.html
+* doc\com\tencent\weibo\sdk\android\api\TimeLineAPI.html
+* doc\com\tencent\weibo\sdk\android\api\UserAPI.html
+* doc\com\tencent\weibo\sdk\android\api\WeiboAPI.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\
+* doc\com\tencent\weibo\sdk\android\api\adapter\ConversationAdapter.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\FriendAdapter.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\GalleryAdapter.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\class-use\
+* doc\com\tencent\weibo\sdk\android\api\adapter\class-use\ConversationAdapter.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\class-use\FriendAdapter.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\class-use\GalleryAdapter.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\package-frame.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\package-summary.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\package-tree.html
+* doc\com\tencent\weibo\sdk\android\api\adapter\package-use.html
+* doc\com\tencent\weibo\sdk\android\api\class-use\
+* doc\com\tencent\weibo\sdk\android\api\class-use\BaseAPI.html
+* doc\com\tencent\weibo\sdk\android\api\class-use\FriendAPI.html
+* doc\com\tencent\weibo\sdk\android\api\class-use\LbsAPI.html
+* doc\com\tencent\weibo\sdk\android\api\class-use\PublishWeiBoAPI.html
+* doc\com\tencent\weibo\sdk\android\api\class-use\TimeLineAPI.html
+* doc\com\tencent\weibo\sdk\android\api\class-use\UserAPI.html
+* doc\com\tencent\weibo\sdk\android\api\class-use\WeiboAPI.html
+* doc\com\tencent\weibo\sdk\android\api\package-frame.html
+* doc\com\tencent\weibo\sdk\android\api\package-summary.html
+* doc\com\tencent\weibo\sdk\android\api\package-tree.html
+* doc\com\tencent\weibo\sdk\android\api\package-use.html
+* doc\com\tencent\weibo\sdk\android\api\util\
+* doc\com\tencent\weibo\sdk\android\api\util\BackGroudSeletor.html
+* doc\com\tencent\weibo\sdk\android\api\util\FirendCompare.html
+* doc\com\tencent\weibo\sdk\android\api\util\HypyUtil.html
+* doc\com\tencent\weibo\sdk\android\api\util\ImageLoaderAsync.callBackImage.html
+* doc\com\tencent\weibo\sdk\android\api\util\ImageLoaderAsync.html
+* doc\com\tencent\weibo\sdk\android\api\util\JsonUtil.html
+* doc\com\tencent\weibo\sdk\android\api\util\SharePersistent.html
+* doc\com\tencent\weibo\sdk\android\api\util\Util.html
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\BackGroudSeletor.html
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\FirendCompare.html
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\HypyUtil.html
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\ImageLoaderAsync.callBackImage.html
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\ImageLoaderAsync.html
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\JsonUtil.html
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\SharePersistent.html
+* doc\com\tencent\weibo\sdk\android\api\util\class-use\Util.html
+* doc\com\tencent\weibo\sdk\android\api\util\package-frame.html
+* doc\com\tencent\weibo\sdk\android\api\util\package-summary.html
+* doc\com\tencent\weibo\sdk\android\api\util\package-tree.html
+* doc\com\tencent\weibo\sdk\android\api\util\package-use.html
+* doc\com\tencent\weibo\sdk\android\component\
+* doc\com\tencent\weibo\sdk\android\component\Authorize.html
+* doc\com\tencent\weibo\sdk\android\component\ConversationActivity.html
+* doc\com\tencent\weibo\sdk\android\component\FriendActivity.html
+* doc\com\tencent\weibo\sdk\android\component\GeneralDataShowActivity.html
+* doc\com\tencent\weibo\sdk\android\component\GeneralInterfaceActivity.html
+* doc\com\tencent\weibo\sdk\android\component\LetterListView.OnTouchingLetterChangedListener.html
+* doc\com\tencent\weibo\sdk\android\component\LetterListView.html
+* doc\com\tencent\weibo\sdk\android\component\PublishActivity.html
+* doc\com\tencent\weibo\sdk\android\component\ReAddActivity.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\
+* doc\com\tencent\weibo\sdk\android\component\class-use\Authorize.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\ConversationActivity.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\FriendActivity.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\GeneralDataShowActivity.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\GeneralInterfaceActivity.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\LetterListView.OnTouchingLetterChangedListener.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\LetterListView.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\PublishActivity.html
+* doc\com\tencent\weibo\sdk\android\component\class-use\ReAddActivity.html
+* doc\com\tencent\weibo\sdk\android\component\package-frame.html
+* doc\com\tencent\weibo\sdk\android\component\package-summary.html
+* doc\com\tencent\weibo\sdk\android\component\package-tree.html
+* doc\com\tencent\weibo\sdk\android\component\package-use.html
+* doc\com\tencent\weibo\sdk\android\model\
+* doc\com\tencent\weibo\sdk\android\model\AccountModel.html
+* doc\com\tencent\weibo\sdk\android\model\BaseVO.html
+* doc\com\tencent\weibo\sdk\android\model\Firend.html
+* doc\com\tencent\weibo\sdk\android\model\ImageInfo.html
+* doc\com\tencent\weibo\sdk\android\model\ModelResult.html
+* doc\com\tencent\weibo\sdk\android\model\class-use\
+* doc\com\tencent\weibo\sdk\android\model\class-use\AccountModel.html
+* doc\com\tencent\weibo\sdk\android\model\class-use\BaseVO.html
+* doc\com\tencent\weibo\sdk\android\model\class-use\Firend.html
+* doc\com\tencent\weibo\sdk\android\model\class-use\ImageInfo.html
+* doc\com\tencent\weibo\sdk\android\model\class-use\ModelResult.html
+* doc\com\tencent\weibo\sdk\android\model\package-frame.html
+* doc\com\tencent\weibo\sdk\android\model\package-summary.html
+* doc\com\tencent\weibo\sdk\android\model\package-tree.html
+* doc\com\tencent\weibo\sdk\android\model\package-use.html
+* doc\com\tencent\weibo\sdk\android\network\
+* doc\com\tencent\weibo\sdk\android\network\HttpCallback.html
+* doc\com\tencent\weibo\sdk\android\network\HttpConfig.html
+* doc\com\tencent\weibo\sdk\android\network\HttpReq.UTF8PostMethod.html
+* doc\com\tencent\weibo\sdk\android\network\HttpReq.html
+* doc\com\tencent\weibo\sdk\android\network\HttpReqWeiBo.html
+* doc\com\tencent\weibo\sdk\android\network\HttpService.html
+* doc\com\tencent\weibo\sdk\android\network\ReqParam.html
+* doc\com\tencent\weibo\sdk\android\network\class-use\
+* doc\com\tencent\weibo\sdk\android\network\class-use\HttpCallback.html
+* doc\com\tencent\weibo\sdk\android\network\class-use\HttpConfig.html
+* doc\com\tencent\weibo\sdk\android\network\class-use\HttpReq.UTF8PostMethod.html
+* doc\com\tencent\weibo\sdk\android\network\class-use\HttpReq.html
+* doc\com\tencent\weibo\sdk\android\network\class-use\HttpReqWeiBo.html
+* doc\com\tencent\weibo\sdk\android\network\class-use\HttpService.html
+* doc\com\tencent\weibo\sdk\android\network\class-use\ReqParam.html
+* doc\com\tencent\weibo\sdk\android\network\package-frame.html
+* doc\com\tencent\weibo\sdk\android\network\package-summary.html
+* doc\com\tencent\weibo\sdk\android\network\package-tree.html
+* doc\com\tencent\weibo\sdk\android\network\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-15.html
+* doc\index-files\index-16.html
+* doc\index-files\index-17.html
+* doc\index-files\index-18.html
+* doc\index-files\index-19.html
+* doc\index-files\index-2.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\inherit.gif
+* doc\serialized-form.html
+* doc\stylesheet.css
+* ic_launcher-web.png
+* proguard-project.txt
+From AndroidSDKComponent:
+* AndroidSDKComponent.iml
+* ic_launcher-web.png
+* proguard-project.txt
+From AnnShop:
+* .DS_Store
+* ECMobileJunitTest\
+* ECMobileJunitTest\.classpath
+* ECMobileJunitTest\.idea\
+* ECMobileJunitTest\.idea\.name
+* ECMobileJunitTest\.idea\compiler.xml
+* ECMobileJunitTest\.idea\copyright\
+* ECMobileJunitTest\.idea\copyright\profiles_settings.xml
+* ECMobileJunitTest\.idea\encodings.xml
+* ECMobileJunitTest\.idea\misc.xml
+* ECMobileJunitTest\.idea\modules.xml
+* ECMobileJunitTest\.idea\scopes\
+* ECMobileJunitTest\.idea\scopes\scope_settings.xml
+* ECMobileJunitTest\.idea\vcs.xml
+* ECMobileJunitTest\.idea\workspace.xml
+* ECMobileJunitTest\.project
+* ECMobileJunitTest\.settings\
+* ECMobileJunitTest\.settings\org.eclipse.jdt.core.prefs
+* ECMobileJunitTest\ECMobileJunit.iml
+* ECMobileJunitTest\bin\
+* ECMobileJunitTest\bin\AndroidManifest.xml
+* ECMobileJunitTest\bin\ECMobileJunit.apk
+* ECMobileJunitTest\bin\classes.dex
+* ECMobileJunitTest\bin\classes\
+* ECMobileJunitTest\bin\classes\drawable-hdpi\
+* ECMobileJunitTest\bin\classes\drawable-hdpi\ic_launcher.png
+* ECMobileJunitTest\bin\classes\drawable-ldpi\
+* ECMobileJunitTest\bin\classes\drawable-ldpi\ic_launcher.png
+* ECMobileJunitTest\bin\classes\drawable-mdpi\
+* ECMobileJunitTest\bin\classes\drawable-mdpi\ic_launcher.png
+* ECMobileJunitTest\bin\classes\drawable-xhdpi\
+* ECMobileJunitTest\bin\classes\drawable-xhdpi\ic_launcher.png
+* ECMobileJunitTest\bin\classes\values\
+* ECMobileJunitTest\bin\classes\values\strings.xml
+* ECMobileJunitTest\bin\dexedLibs\
+* ECMobileJunitTest\bin\dexedLibs\robotium-solo-5.0.1-1c593552e084462dae57c8c4a76b5377.jar
+* ECMobileJunitTest\bin\res\
+* ECMobileJunitTest\bin\res\drawable-hdpi\
+* ECMobileJunitTest\bin\res\drawable-hdpi\ic_launcher.png
+* ECMobileJunitTest\bin\res\drawable-ldpi\
+* ECMobileJunitTest\bin\res\drawable-ldpi\ic_launcher.png
+* ECMobileJunitTest\bin\res\drawable-mdpi\
+* ECMobileJunitTest\bin\res\drawable-mdpi\ic_launcher.png
+* ECMobileJunitTest\bin\res\drawable-xhdpi\
+* ECMobileJunitTest\bin\res\drawable-xhdpi\ic_launcher.png
+* ECMobileJunitTest\bin\resources.ap_
+* ECMobileJunitTest\gen\
+* ECMobileJunitTest\gen\cn\
+* ECMobileJunitTest\gen\cn\asmm\
+* ECMobileJunitTest\gen\cn\asmm\shop\
+* ECMobileJunitTest\gen\cn\asmm\shop\test\
+* ECMobileJunitTest\gen\cn\asmm\shop\test\BuildConfig.java
+* ECMobileJunitTest\gen\cn\asmm\shop\test\R.java
+* ECMobileJunitTest\lib\
+* ECMobileJunitTest\lib\robotium-solo-5.0.1-javadoc.jar
+* ECMobileJunitTest\lib\robotium-solo-5.0.1.jar
+* ECMobileJunitTest\lint.xml
+* ECMobileJunitTest\proguard-project.txt
+* ECMobileJunitTest\project.properties
+* EcmobileMainActivity.iml
+* ant.properties
+* build.xml
+* proguard-project.txt
+From EventBus:
+* .gitignore
+* EventBus.iml
+* build.gradle
+* mybuild.xml
+* settings.gradle
+From alipay_lib:
+* alipay_lib.iml
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In AndroidSDK:
+* AndroidManifest.xml => androidSDK\src\main\AndroidManifest.xml
+* assets\ => androidSDK\src\main\assets
+* libs\commons-httpclient-3.0.1.jar => androidSDK\libs\commons-httpclient-3.0.1.jar
+* res\ => androidSDK\src\main\res\
+* src\ => androidSDK\src\main\java\
+* src\config\config.properties => androidSDK\src\main\resources\config\config.properties
+In AndroidSDKComponent:
+* AndroidManifest.xml => androidSDKComponent\src\main\AndroidManifest.xml
+* assets\ => androidSDKComponent\src\main\assets
+* res\ => androidSDKComponent\src\main\res\
+* src\ => androidSDKComponent\src\main\java\
+In EventBus:
+* AndroidManifest.xml => eventBus\src\main\AndroidManifest.xml
+* assets\ => eventBus\src\main\assets
+* res\ => eventBus\src\main\res\
+* src\ => eventBus\src\main\java\
+In alipay_lib:
+* AndroidManifest.xml => alipay_lib\src\main\AndroidManifest.xml
+* assets\ => alipay_lib\src\main\assets
+* lint.xml => alipay_lib\lint.xml
+* res\ => alipay_lib\src\main\res\
+* src\ => alipay_lib\src\main\java\
+In AnnShop:
+* AndroidManifest.xml => annShop\src\main\AndroidManifest.xml
+* assets\ => annShop\src\main\assets\
+* ECMobileJunitTest\res\ => annShop\src\androidTest\res\
+* ECMobileJunitTest\src\ => annShop\src\androidTest\java\
+* libs\alipay.jar => annShop\libs\alipay.jar
+* libs\armeabi\libbdpush_V1_0.so => annShop\src\main\jniLibs\armeabi\libbdpush_V1_0.so
+* libs\armeabi\libentryexpro.so => annShop\src\main\jniLibs\armeabi\libentryexpro.so
+* libs\armeabi\libmsc.so => annShop\src\main\jniLibs\armeabi\libmsc.so
+* libs\commons-httpclient-3.0.1.jar => annShop\libs\commons-httpclient-3.0.1.jar
+* libs\libammsdk.jar => annShop\libs\libammsdk.jar
+* libs\mips\libbdpush_V1_0.so => annShop\src\main\jniLibs\mips\libbdpush_V1_0.so
+* libs\mips\libentryexpro.so => annShop\src\main\jniLibs\mips\libentryexpro.so
+* libs\mips\libmsc.so => annShop\src\main\jniLibs\mips\libmsc.so
+* libs\Msc.jar => annShop\libs\Msc.jar
+* libs\pushservice-3.2.0.jar => annShop\libs\pushservice-3.2.0.jar
+* libs\umeng_sdk.jar => annShop\libs\umeng_sdk.jar
+* libs\universal-image-loader-1.8.6-with-sources.jar => annShop\libs\universal-image-loader-1.8.6-with-sources.jar
+* libs\UPPayAssistEx.jar => annShop\libs\UPPayAssistEx.jar
+* libs\UPPayPluginExPro.jar => annShop\libs\UPPayPluginExPro.jar
+* libs\weibosdkcore.jar => annShop\libs\weibosdkcore.jar
+* libs\x86\libbdpush_V1_0.so => annShop\src\main\jniLibs\x86\libbdpush_V1_0.so
+* libs\x86\libentryexpro.so => annShop\src\main\jniLibs\x86\libentryexpro.so
+* libs\x86\libmsc.so => annShop\src\main\jniLibs\x86\libmsc.so
+* lint.xml => annShop\lint.xml
+* res\ => annShop\src\main\res\
+* src\ => annShop\src\main\java\
+* src\.DS_Store => annShop\src\main\resources\.DS_Store
+* src\cn\.DS_Store => annShop\src\main\resources\cn\.DS_Store
+* src\cn\asmm\.DS_Store => annShop\src\main\resources\cn\asmm\.DS_Store
+* src\cn\asmm\androidquery\util\web_image.html => annShop\src\main\resources\cn\asmm\androidquery\util\web_image.html
+* src\cn\asmm\shop\.DS_Store => annShop\src\main\resources\cn\asmm\shop\.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
